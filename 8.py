@@ -1,10 +1,10 @@
-def main():
-    num=int(input(""))
-    sum = 0
-  
-    while(num > 0):
+num = 16
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   while(num > 0):
        sum += num
        num -= 1
-    print(sum)
-if __name__ == '__main__':
-    main()
+   print("The sum is",sum)
